@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.editor.EditorActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/defaultMargin"
+        android:layout_marginEnd="@dimen/defaultMargin"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/codeWarehouse"
+            android:hint="@string/code_warehouse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:inputType="text"
+            android:autofillHints="@string/code_warehouse" />
+
+        <EditText
+            android:id="@+id/codeItem"
+            android:hint="@string/codeItem"
+            android:layout_below="@id/codeWarehouse"
+            android:layout_marginTop="@dimen/defaultMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:inputType="text"
+            android:autofillHints="@string/codeItem"/>
+
+        <EditText
+            android:id="@+id/nameItem"
+            android:hint="@string/nameItem"
+            android:layout_below="@id/codeItem"
+            android:layout_marginTop="@dimen/defaultMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:inputType="text"
+            android:autofillHints="@string/nameItem"/>
+
+        <EditText
+            android:id="@+id/typeOfItem"
+            android:hint="@string/typeOfItem"
+            android:layout_below="@id/nameItem"
+            android:layout_marginTop="@dimen/defaultMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:inputType="text"
+            android:autofillHints="@string/typeOfItem"/>
+
+        <EditText
+            android:id="@+id/totalItems"
+            android:hint="@string/totalItems"
+            android:layout_below="@id/typeOfItem"
+            android:layout_marginTop="@dimen/defaultMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:inputType="text"
+            android:autofillHints="@string/totalItems"/>
+
+        <EditText
+            android:id="@+id/unit"
+            android:hint="@string/unit"
+            android:layout_below="@id/totalItems"
+            android:layout_marginTop="@dimen/defaultMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:inputType="text"
+            android:autofillHints="@string/unit"/>
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

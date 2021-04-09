@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WarehouseCocoba</string>
+    <string name="add">Add</string>
+    <string name="code_warehouse">Code Warehouse</string>
+    <string name="codeItem">Code Item</string>
+    <string name="nameItem">Name Item</string>
+    <string name="typeOfItem">Type Of Item</string>
+    <string name="totalItems">Total Items</string>
+    <string name="unit">Unit</string>
+    <string name="save">Save</string>
+</resources>
